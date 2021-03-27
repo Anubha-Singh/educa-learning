@@ -1,0 +1,54 @@
+[
+{
+  "model": "courses.subject",
+  "pk": 1,
+  "fields": {
+    "title": "math",
+    "slug": "math"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 2,
+  "fields": {
+    "title": "physics",
+    "slug": "physics"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 3,
+  "fields": {
+    "title": "chemistry",
+    "slug": "chemistry"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 4,
+  "fields": {
+    "title": "music",
+    "slug": "music"
+  }
+},
+{
+  "model": "courses.subject",
+  "pk": 5,
+  "fields": {
+    "title": "programming",
+    "slug": "programming"
+  }
+},
+{
+  "model": "courses.course",
+  "pk": 1,
+  "fields": {
+    "owner": 1,
+    "subject": 2,
+    "title": "Quantum Physics",
+    "slug": "quantum-physics",
+    "overview": "Quantum physics is the study of the behavior of matter and energy at the molecular, atomic, nuclear, and even smaller microscopic levels. In the early 20th century, scientists discovered that the laws governing macroscopic objects do not function the same in such small realms.",
+    "created": "2021-03-22T14:23:22.812Z"
+  }
+}
+]
